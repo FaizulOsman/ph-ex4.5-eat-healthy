@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.orange {
+    color: orange;
+}
+
+#skip-diet-section {
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+}
+
+#skip-diet-section .text-area {
+    padding-left: 100px;
+    z-index: 1;
+    margin-top: 260px;
+}
+
+.text-area h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+#skip-diet-section .text-area p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #828282;
+    line-height: 160%;
+    margin: 40px 0 49px 0;
+}
+
+.text-area a {
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    border-radius: 100px;
+    padding: 18px 32px;
+    text-decoration: none;
+    color: white;
+}
+
+.strong-man-image-area img {
+    width: 110%;
+    z-index: 0;
+    margin-left: -140px;
+    margin-top: 100px;
+}
+
+
+#about-me-section {
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: 1440px 600px;
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+    margin: 100px 0 72px 0;
+}
+
+#about-me-section .image-area img {
+    width: 338px;
+    height: 536px;
+    padding-left: 199px;
+    padding-top: 64px;
+    bottom: 0;
+}
+
+#about-me-section .text-area {
+    margin: 127px 0 0 48px;
+}
+
+#about-me-section .text-area p {
+    margin: 32px 213px 90px 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #828282;
+    line-height: 160%;
+}
