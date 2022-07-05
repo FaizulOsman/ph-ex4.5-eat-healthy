@@ -64,7 +64,7 @@ body {
     display: flex;
     max-width: 1440px;
     width: 100%;
-    margin: 100px 0 72px 0;
+    margin-top: 100px;
 }
 
 #about-me-section .image-area img {
@@ -85,4 +85,129 @@ body {
     font-weight: 500;
     color: #828282;
     line-height: 160%;
+}
+
+
+
+
+#my-recipie-section {
+    margin-top: 72px;
+}
+
+#my-recipies-text {
+    text-align: center;
+    width: 706px;
+    margin: 0 auto;
+}
+
+#my-recipies-text h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+#my-recipies-text p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #252525;
+    margin-top: 30px;
+}
+
+#recipie-area {
+    display: flex;
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.card {
+    margin-top: 30px;
+    padding: 30px 30px 54px 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px gray;
+}
+
+.card img {
+    width: 550px;
+    height: 308px;
+}
+
+.card1 {
+    margin-right: 10px;
+}
+
+.card2 {
+    margin-left: 10px;
+}
+
+.card h4 {
+    font-weight: 800;
+    font-size: 28px;
+    margin: 30px 0 10px 0;
+}
+
+.card p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+#progress-section {
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px gray;
+    margin: 0 auto;
+    width: 1240px;
+    margin-top: 100px;
+}
+
+#progress-area {
+    display: flex;
+    padding: 64px 165px;
+}
+
+#progress-area h1 {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+#progress-area p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.subscribers,
+.followers,
+.likes {
+    width: 303px;
+    height: 98px;
+    padding-left: 80px;
+}
+
+.subscribers,
+.followers {
+    margin-right: 30px;
+}
+
+
+
+
+#footer {
+    margin-top: 92px;
+    background: #0B0D17;
+    text-align: center;
+    height: 256px;
+}
+
+.footer-text h1 {
+    padding: 45px 0 37px 0;
+    color: #5B5B5B;
+}
+
+.footer-text p {
+    color: #FFF;
 }
